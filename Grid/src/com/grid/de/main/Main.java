@@ -49,7 +49,7 @@ public class Main implements Runnable{
 				{ 
 					System.err.println("Bad syntax. Usage: SendAll(text>");
 				}
-				
+				Thread.sleep(15);
 			}
 			
 			thread.join(); // Waits for the thread to finish then joins it to main
